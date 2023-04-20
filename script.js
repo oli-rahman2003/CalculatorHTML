@@ -12,15 +12,17 @@ secondNumberInput.addEventListener("input", () => {
 
 //BUTTON TO SUM TWO INPUTS
 const sumButton = document.getElementById("sumButton");
+const resultOutput = document.getElementById("result")
+
+
+sumButton.addEventListener("click", addNumbers)
+
 
 function addNumbers(){
     const firstNumberValue = Number(firstNumberInput.value);
     const secondNumberValue = Number(secondNumberInput.value);
     const sum = firstNumberValue + secondNumberValue;
-    console.log ("the sum is ", sum)
+    resultOutput.textContent = `The sum of ${firstNumberValue} and ${secondNumberValue} is ${sum}`;
 
     
 }
-sumButton.addEventListener("click", addNumbers)
-
-
