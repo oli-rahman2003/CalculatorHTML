@@ -23,6 +23,5 @@ function addNumbers(){
     const secondNumberValue = Number(secondNumberInput.value);
     const sum = firstNumberValue + secondNumberValue;
     resultOutput.textContent = `The sum of ${firstNumberValue} and ${secondNumberValue} is ${sum}`;
-
-    
 }
+
