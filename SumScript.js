@@ -25,6 +25,3 @@ function addNumbers(){
     resultOutput.textContent = `The sum of ${firstNumberValue} and ${secondNumberValue} is ${sum}`;
 
 }
-
-asdfasdgasdfg
-asdfasdgasdfg
